@@ -54,7 +54,7 @@ body {
 
 	box-sizing: border-box;
 
-	overflow: scroll;
+	overflow: hidden;
 
 	padding-top: 30px;
 	padding-left: 50px;
