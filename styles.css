@@ -11,6 +11,7 @@ body {
 
 	font-family: 'Overpass Mono', monospace;
 	font-size: 20px;
+	font-size: 1vmax;
 	font-weight: normal;
 	clear: both;
 
