@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+
+html, body {
+
+	margin: 0;
+	height: 100%;
+
+}
+
+body {
+
+	font-family: 'Overpass Mono', monospace;
+	font-size: 16px;
+	font-size: 0.8vmax;
+	font-weight: normal;
+	clear: both;
+
+	background-color: #e4ebed;
+
+	color: #000000;
+
+}
+
+.bold {
+
+	font-weight: 600;
+
+}
+
+.color1 {
+
+	color: #8ac2d4;
+
+}
+
+.color2 {
+
+	color: #619aab;
+
+}
+
+.color3 {
+
+	color: #d18aa3;
+
+}
+
+.window {
+
+	border-radius: 20px;
+	background: linear-gradient(225deg, #cdd4d5, #f4fbfe);
+	box-shadow: -20px 20px 40px #00000026,
+	20px -20px 40px #ffffff;
+
+	box-sizing: border-box;
+
+	overflow: hidden;
+
+	padding-top: 30px;
+	padding-left: 50px;
+
+}
+
+#main {
+
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 70%;
+	height: 70%;
+
+}
+
+#flowers {
+
+	background-image: url('resources/1024.jpg');
+	background-position: center;
+	position: absolute;
+	width: 35%;
+	height: 40%;
+	left: 55%;
+	top: 45%;
+
+	box-shadow: -30px 30px 50px #00000046;
+
+}
+
+#matrix {
+
+	background-image: url('resources/208.gif');
+	background-repeat: repeat;
+	position: absolute;
+	width: 20%;
+	height: 25%;
+	left: 75%;
+	top: 70%;
+
+	box-shadow: -20px 20px 30px #00000056;
+
+}
+
+#cursor {
+
+	-webkit-animation: 1s blink step-end infinite;
+	-moz-animation: 1s blink step-end infinite;
+	-ms-animation: 1s blink step-end infinite;
+	-o-animation: 1s blink step-end infinite;
+	animation: 1s blink step-end infinite;
+
+}
+
+@keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+}
+
+@-moz-keyframes blink {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+}
+
+@-webkit-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+}
+
+@-ms-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+}
+
+@-o-keyframes "blink" {
+	from, to {
+		color: transparent;
+	}
+	50% {
+		color: black;
+	}
+}
